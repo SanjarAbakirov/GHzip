@@ -5,14 +5,17 @@ import zipfile
 class ZipProgram:
 
     def __init__(self, archive_name):
-
+        # имя архива, например "my.zip"
         self.archive_name = archive_name
 
     def create(self, folder_path):
+        """Создаёт zip-архив из папки."""
+        # проверяем, что папка существует
         if not os.path.exists(folder_path):
             print("Папка не найдена!")
             return
 
+        # открываем zip на запись
         with zipfile.ZipFile(self.archive_name, "w") as zf:
             # проходим по всем файлам в папке
             for root, dirs, files in os.walk(folder_path):

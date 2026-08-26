@@ -3,9 +3,10 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.git" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/__pycache__" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.14" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.14 (GHzip)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
