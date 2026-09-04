@@ -25,8 +25,3 @@ def decompress(data):
         i += 2
 
     return bytes(result)
-
-
-    # def decompress(data: bytes) -> bytes:
-    # if len(data) % 2 != 0:
-    #     raise ValueError("Повреждённый файл: нечётное число байт")
